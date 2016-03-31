@@ -1,7 +1,7 @@
 HighlightAnything
 =================
 
-**[日本語はこちら](README.ja.md)**
+**[README (日本語)](README.ja.md)**
 
 Always highlight your specified character in [Sublime Text 2](http://www.sublimetext.com/2) and [3](http://www.sublimetext.com/3).
 
@@ -13,13 +13,13 @@ For example, this plugin can highlight the invisible ideographic space (Japanese
 
 ### 1. Add Repository
 
-* Open **"Command Pallet"** `Ctrl + Shift + p` (`Cmd + Shift + p` in OS X)
+* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> in OSX)
 * Select **"Package Control: Add Repository"**
 * Enter this repository URL `https://github.com/polygonplanet/HighlightAnything` 
 
 ### 2. Install Package
 
-* Open **"Command Pallet"** `Ctrl + Shift + p` (`Cmd + Shift + p` in OS X)
+* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> in OSX)
 * Select **"Package Control: Install Package"**
 * Select **HighlightAnything**
 

@@ -1,7 +1,7 @@
 HighlightAnything
 =================
 
-**[English](README.md)**
+**[README (English)](README.md)**
 
 指定した文字を常に強調(アウトライン)表示する [Sublime Text 2](http://www.sublimetext.com/2) と [3](http://www.sublimetext.com/3) 用のプラグインです。
 
@@ -13,13 +13,13 @@ HighlightAnything
 
 ### 1. レポジトリの追加
 
-* **"コマンドパレット (Command Pallet)"** を開きます。 `Ctrl + Shift + p` (OS X の場合 `Cmd + Shift + p`) で開けます。
+* **"コマンドパレット (Command Pallet)"** を開きます。 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (OSX の場合 <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>) で開けます。
 * **"Package Control: Add Repository"** を選択します。
 * 下のほうにでる入力欄に、このレポジトリの URL `https://github.com/polygonplanet/HighlightAnything` を入力し決定します。
 
 ### 2. パッケージのインストール
 
-* **"コマンドパレット (Command Pallet)"** を開きます。 `Ctrl + Shift + p` (OS X の場合 `Cmd + Shift + p`) で開けます。
+* **"コマンドパレット (Command Pallet)"** を開きます。 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (OSX の場合 <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>) で開けます。
 * **"Package Control: Install Package"** を選択します。
 * **HighlightAnything** を選択するとインストールされます。
 
