@@ -11,5 +11,14 @@
 
   // A regular expression pattern to highlight any character.
   // By default, highlight ideographic space (Japanese fullwidth space).
-  "highlight_anything_regexp": "[\u3000]+"
+  "highlight_anything_regexp": "[\u3000]+",
+
+  // Highlighting will be disabled if the edited file's size is larger than
+  // this.
+  // Adjust the value (in number of chars) to whatever fits your performance.
+  "highlight_anything_max_file_size": 1048576,
+
+  // Interval to highlight on file modified.
+  // Adjust the value (in milliseconds) to whatever fits your performance.
+  "highlight_anything_delay": 200
 }
