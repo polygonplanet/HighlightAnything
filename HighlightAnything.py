@@ -5,7 +5,7 @@ REGION_KEY = "HighlightAnything_Highlight"
 SETTINGS_KEY = "HighlightAnything.sublime-settings"
 
 DEFAULT_ENABLED = True
-DEFAULT_REGEXP = "[\u3000]+"
+DEFAULT_REGEXP = u"[\u3000]+"
 DEFAULT_MAX_FILE_SIZE = 1048576
 DEFAULT_DELAY = 200
 
