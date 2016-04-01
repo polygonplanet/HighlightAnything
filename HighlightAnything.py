@@ -9,8 +9,7 @@ DEFAULT_REGEXP = u"[\u3000]+"
 DEFAULT_MAX_FILE_SIZE = 1048576
 DEFAULT_DELAY = 200
 
-st3 = True if int(sublime.version()) >= 3000 else False
-
+ST3 = int(sublime.version()) >= 3000
 
 class Preferences:
   def load(self, settings):
@@ -36,7 +35,7 @@ def highlight(view):
     return
 
   view.erase_regions(REGION_KEY)
-  if st3:
+  if ST3:
     view.add_regions(REGION_KEY, view.find_all(Pref.regexp), "invalid", "", sublime.DRAW_OUTLINED)
   else:
     view.add_regions(REGION_KEY, view.find_all(Pref.regexp), "invalid", sublime.DRAW_OUTLINED)
@@ -69,5 +68,5 @@ class HighlightAnything(sublime_plugin.EventListener):
       highlight(view)
 
 
-if not st3:
+if not ST3:
   plugin_loaded()
