@@ -13,13 +13,13 @@ For example, this plugin can highlight the invisible ideographic space (Japanese
 
 ### 1. Add Repository
 
-* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> in OSX)
+* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> on OSX)
 * Select **"Package Control: Add Repository"**
 * Enter this repository URL `https://github.com/polygonplanet/HighlightAnything` 
 
 ### 2. Install Package
 
-* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> in OSX)
+* Open **"Command Pallet"** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> on OSX)
 * Select **"Package Control: Install Package"**
 * Select **HighlightAnything**
 
